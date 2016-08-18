@@ -1,0 +1,73 @@
+.container {
+  display: inline-block;
+  float: left;
+}
+
+.rowOne {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.rowTwo {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.rowThree {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+
+.rowFour {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+
+.rowFive {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.rowSix {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.rowSeven {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+.rowEight {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.getTotalBox {
+  border: 1px grey solid;
+}
+
+
+.cost {
+  margin-bottom: 35px;
+}
+
+.btn-primary {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.btn-success {
+  margin-top: 60px;
+  margin-bottom: 5px;
+}
+
+.socialMedia {
+  margin-top: 80px;
+}
