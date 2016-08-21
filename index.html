@@ -4,281 +4,224 @@
     <meta charset="utf-8">
     <title>Form Validation Pizza Stream</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha384-QqZs0aSOGFan3GWVdP4PyCBp6icaF/4n8Q+wsmZUTiiVIqE4r4tFYcb8Osf+8y45" crossorigin="anonymous">
-
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-
-
-
     <link href="main.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
     <header class="row rowOne">
-      <h1 class="col-lg-7 col-xs-6">Pizza Stream</h1>
-
-        <ul class= "col-lg-5 col-lg-push-1 nav nav-pills col-xs-6">
+      <div class ="col-lg-12">
+        <h1>Pizza Stream</h1>
+      </div>
+    </header>
+    <nav class="row rowTwo">
+      <div class ="col-lg-12">
+        <ul class= "col-lg-12 col-lg-push-9 nav nav-pills col-xs-6">
           <li role="presentation" class="active"><a href="#">Place an order</a></li>
           <li role="presentation"><a href="#aboutUs">About Us</a></li>
           <li role="presentation"><a href="#contactUs">Contact Us</a></li>
         </ul>
-
-
-    </header>
-
+      </div>
+    </nav>
     <form class="container">
-      <main class="row rowTwo">
-
-          <article class="col-lg-4 col-xs-12 component">
-            <h4>Size (choose at least one)</h4>
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="size" class="size" value="small">Small</label>
-            </div>
-
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="size" class="size" value="medium">Medium</label>
-            </div>
-
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="size" class="size" value="large">Large</label>
-            </div>
-          </article>
-
-          <article class="col-lg-4 col-xs-12 component">
-            <h4>Crust (choose at least one)</h4>
-            <div class="checkbox">
-              <label>
+      <main class="row rowThreeOne">
+        <article class="col-lg-4 col-xs-4 component">
+          <h4>Size (choose at least one)</h4>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" name="size" class="size" value="small">Small $5.00</label>
+          </div>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" name="size" class="size" value="medium">Medium $10.00</label>
+          </div>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" name="size" class="size" value="large">Large $15.00</label>
+          </div>
+        </article>
+        <article class="col-lg-4 col-xs-4 component">
+          <h4>Crust (choose at least one)</h4>
+          <div class="checkbox">
+            <label>
               <input type="checkbox" name="crust" id="crust" value="White">White</label>
-            </div>
-
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="crust" id="crust" value="
+          </div>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" name="crust" id="crust" value="
               Wheat">Wheat</label>
-            </div>
-
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="crust" id="crust" value="Gluten Free">Gluten Free</label>
-            </div>
-          </article>
-
-          <article class="col-lg-4 col-xs-12 component">
-            <h4>Sauce (choose at least one)</h4>
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="sauce" id="sauce" value="Robust Tomato">Robust Tomato</label>
-            </div>
-
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="sauce" id="sauce" value="Spicy BBQ">Spicy BBQ</label>
-            </div>
-
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="sauce" id="sauce" value="Creamy Cream">Creamy Cream (+$1.50)</label>
-            </div>
-          </article>
+          </div>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" name="crust" id="crust" value="Gluten Free">Gluten Free</label>
+          </div>
+        </article>
+        <article class="col-lg-4 col-xs-4 component">
+          <h4>Sauce (choose at least one)</h4>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" name="sauce" id="sauce" value="Robust Tomato">Robust Tomato</label>
+          </div>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" name="sauce" id="sauce" value="Spicy BBQ">Spicy BBQ</label>
+          </div>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" name="sauce" id="sauce" value="Creamy Cream">Creamy Cream (+$1.50)</label>
+          </div>
+        </article>
       </main>
-
       <main class="row rowThree">
         <article class="col-lg-12 col-xs-12 component">
           <h4>Toppings ($0.75 each)</h4>
         </article>
       </main>
-
       <main class="row rowFour">
-        <article class="col-lg-3 col-xs-12">
+        <article class="col-lg-3 col-xs-6">
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Sausage">Sausage</label>
           </div>
-
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Pepperoni">Pepperoni</label>
           </div>
-
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Bacon">Bacon (+$0.50 extra)</label>
           </div>
-
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Salami">Salami</label>
           </div>
         </article>
-
-        <article class="col-lg-3 col-xs-12">
-
+        <article class="col-lg-3 col-xs-6">
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Ham">Ham</label>
           </div>
-
           <div class="checkbox">
             <label>
-            <input type="checkbox" name="toppings" id="toppings" value="Chicken ">Chicken (+$0.50 extra)</label>
+            <input type="checkbox" name="toppings" id="toppings" value="Chicken">Chicken (+$0.50 extra)</label>
           </div>
-
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Feta Cheese">Feta Cheese</label>
           </div>
-
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Soy Cheese">Soy Cheese</label>
           </div>
         </article>
-
-
-        <article class="col-lg-3 col-xs-12">
+        <article class="col-lg-3 col-xs-6">
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Banana Peppers">Banana Peppers</label>
           </div>
-
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Jalapeno Peppers">Jalapeno Peppers</label>
           </div>
-
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Onion">Onion</label>
           </div>
-
         </article>
-
-        <article class="col-lg-3 col-xs-12">
+        <article class="col-lg-3 col-xs-6">
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Olives">Olives</label>
           </div>
-
           <div class="checkbox">
             <label>
               <input type="checkbox" name="toppings" id="toppings" value="Pineapple">Pineapple</label>
             </div>
-
             <div class="checkbox">
               <label>
               <input type="checkbox" name="toppings" id="toppings" value="Mushrooms">Mushrooms</label>
             </div>
         </article>
-
-    </main>
-
+      </main>
       <main class="row rowFive">
-          <article class="col-lg-3 col-xs-12 component">
-            <h4>Other options</h4>
-
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="otherOptions" id="other" value="Extra Cheese">Extra Cheese (+$1.00 extra)</label>
-            </div>
-
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="otherOptions" id="other" value="Bread Sticks">Add bread sticks to order. (+$5.00 extra)</label>
-            </div>
-          </article>
-
-          <article class="col-lg-2 col-xs-12 component">
-            <h4>Pick up or delivery</h4>
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="pickup" id="pickUp" value="true">Pick Up</label>
-            </div>
-
-            <div class="checkbox">
-              <label>
-              <input type="checkbox" name="pickup" id="pickUp" value="false">Delivery ($5.00 Delivery Fee)</label>
-            </div>
-          </article>
-
-          <article class="col-lg-7 col-xs-12 component">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </article>
-        </main>
-
-
-        <main class="row rowSix">
-
-          <article class="col-lg-6 col-xs-12 component">
-            <h4>Customer Information for Delivery Only</h4>
-
-
+        <article class="col-lg-3 col-xs-6 component">
+          <h4>Other options</h4>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" name="otherOptions" id="other" value="Extra Cheese">Extra Cheese (+$1.00 extra)</label>
+          </div>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" name="otherOptions" id="other" value="Bread Sticks">Add bread sticks to order. (+$5.00 extra)</label>
+          </div>
+        </article>
+        <article class="col-lg-2 col-xs-6 component">
+          <h4>Pick up or delivery</h4>
+          <div class="checkbox">
+            <label>
+            <input type="checkbox" name="delivery" id="delivery" value=true onchange="toggleAble(this)">Delivery ($5.00 Delivery Fee)</label>
+          </div>
+        </article>
+        <article class="col-lg-7 col-xs-12 component">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+      </main>
+      <main class="row rowSix">
+        <article class="col-lg-6 col-xs-12 component">
+          <h4>Customer Information for Delivery Only</h4>
+          <fieldset id="fieldset" disabled>
             <div class="form-group">
               <label for="name">Full Name</label>
-              <input type="Name" class="form-control" id="name" required="required" value="Bob Doe">
+              <input type="Name" class="form-control" id="name" required="required" placeholder="Jane Doe">
             </div>
-
             <div class="form-group">
               <label for="address">Address</label>
-              <input type="text" class="form-control" id="address" required="required" value="123 Somewhere Blvd. Denver, CO 80222">
+              <input type="text" class="form-control" id="address" required="required" placeholder="123 Somewhere Blvd. Denver, CO 80222">
             </div>
-
-           <div class="form-group">
+            <div class="form-group">
               <label for="phone">Phone</label>
-              <input type="tel" class="form-control" id="phone" placeholder="720-123-4567" pattern="^\d{3}-\d{3}-\d{4}$" required="required" value='720-123-4567'>
+              <input type="tel" class="form-control" id="phone" placeholder="720-123-4567" pattern="^\d{3}-\d{3}-\d{4}$" required="required">
             </div>
-
-
             <div class="form-group">
               <label for="email">Email</label>
-              <input type="email" class="form-control" id="email" placeholder="jane.doe@example.com" value="jane.doe@example.com">
+              <input type="email" class="form-control" id="email" placeholder="jane.doe@example.com" required="required">
             </div>
-
-            <label for="textArea">Note to the driver</label>
-            <textarea class="form-control" rows="3" placeholder="Type here..." ></textarea>
-
-          </article>
-
-          <article class="col-lg-6 col-xs-12 component getTotalBox">
-            <div class=userOrdered>
-            </div>
-            <h4>Get a Total</h4>
-
-            <button type="submit" class="btn btn-primary">Get Price</button>
-            <h4 class="cost">Pizza Subtotal:</h4>
-            <h4 class="cost">Tax (8%):</h4>
-            <h4 class="cost">Delivery Fee:</h4>
-            <h4 class="cost">Suggested Tip (15%):</h4>
-            <h4 class="cost">Pizza Total:</h4>
-            <button type="button" class="btn btn-success btn-lg btn-block placeOrder">Place my order</button>
-          </article>
+              <label for="textArea">Note to the driver</label>
+              <textarea class="form-control" id="driverNote" rows="3" placeholder="Type here..."></textarea>
+          </fieldset>
+        </article>
+        <article class="col-lg-6 col-xs-12 component getTotalBox">
+          <h4>Get a Total</h4>
+          <button type="submit" class="btn btn-default">Get Price</button>
+          <h4 class="cost subtotal">Pizza Subtotal:</h4>
+          <h4 class="cost tax">Tax (8%):</h4>
+          <h4 class="cost delivery">Delivery Fee:</h4>
+          <h4 class="cost suggestedTip">Suggested Tip (15%):</h4>
+          <h4 class="cost total">Pizza Total:</h4>
+          <button type="button" class="btn btn-default btn-lg btn-block placeOrder">Place my order</button>
+        </article>
       </main>
     </form>
-
     <main class="row rowSeven">
       <article class="col-lg-12 col-xs-12 component" id="aboutUs">
         <h4>About Us</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-
       </article>
     </main>
-
-      <footer class="row rowEight">
-        <article class="col-lg-6 component col-xs-12" id="contactUs">
-          <h4>Pizza Stream</h4><p>123 Pizza Way Denver, CO 80201</p>
-          <p>telephone: 720-987-6543</p>
-          <p>email: pizzastream@pizza.com</p>
-        </article>
-
-        <article class="col-lg-6 col-lg-push-4 socialMedia col-xs-12">
-          <i class="fa fa-facebook-official fa-3x text-primary" aria-hidden="true"></i>
-          <i class="fa fa-twitter fa-3x text-primary" aria-hidden="true"></i>
-          <i class="fa fa-linkedin fa-3x text-primary" aria-hidden="true"></i>
-        </article>
-      </footer>
-
-      <script  src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-      <script type="text/javascript" src="main.js"></script>
+    <footer class="row rowEight">
+      <article class="col-lg-6 component col-xs-12" id="contactUs">
+        <h4>Pizza Stream</h4><p>123 Pizza Way Denver, CO 80201</p>
+        <p>telephone: 720-987-6543</p>
+        <p>email: pizzastream@pizza.com</p>
+      </article>
+      <article class="col-lg-6 col-lg-push-3 socialMedia col-xs-12">
+        <i class="fa fa-facebook-official fa-3x text-default" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-3x text-default" aria-hidden="true"></i>
+        <i class="fa fa-linkedin fa-3x text-default" aria-hidden="true"></i>
+      </article>
+    </footer>
+    <script  src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="globalvariables.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="functions.js"></script>
   </body>
 </html>

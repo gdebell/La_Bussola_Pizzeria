@@ -1,58 +1,48 @@
-.container {
-  display: inline-block;
-  float: left;
+body {
+  background-color: rgba(140, 137, 121, 1);
+  color: rgba(242, 242, 242, 1);
+  overflow-x: hidden;
 }
 
-.rowOne {
-  margin-left: 10px;
-  margin-bottom: 20px;
+header .col-lg-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  background-image: url("./images/pizzaFour.jpg");
+  background-size: cover;
+  background-size: no-repeat;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
-.rowTwo {
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
-
-.rowThree {
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
-
-
-.rowFour {
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
-
-
-.rowFive {
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
-
-.rowSix {
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
-
-.rowSeven {
-  margin-left: 30px;
-  margin-bottom: 20px;
-}
-
-.rowEight {
-  margin-left: 30px;
-  margin-bottom: 20px;
+h1 {
+  color: rgba(246, 10, 32, 1);
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+  font-size: 30px;
 }
 
 h4 {
   font-weight: bold;
+  color: rgba(64, 64, 64, 1);
+}
+
+.container {
+  display: inline-block;
+    margin-left: 20px;
+}
+
+.rowOne, .rowTwo, .rowThree, .rowThreeOne, .rowFour, .rowFive, .rowSix, .rowSeven, .rowEight    {
+  margin-left: 10px;
+  margin-bottom: 20px;
 }
 
 .getTotalBox {
-  border: 1px grey solid;
+  border: 1px rgba(64, 64, 64, 1) solid;
+  margin-top: 20px;
+  padding-bottom: 40px;
 }
-
 
 .cost {
   margin-bottom: 35px;
@@ -64,8 +54,8 @@ h4 {
 }
 
 .btn-success {
-  margin-top: 60px;
-  margin-bottom: 5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .socialMedia {
