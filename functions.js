@@ -2,7 +2,6 @@ $(function() {
   console.log("functions.js is working!");
 });
 
-
 function getOrder() {
   PizzaOrder.size = ($('input:checkbox[name="size"]:checked').val());
   PizzaOrder.crust= ($('input:checkbox[name="crust"]:checked').val());
