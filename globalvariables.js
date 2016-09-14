@@ -11,7 +11,6 @@ var tipDisplay=0;
 var pizzaTotal=0;
 var pizzaTotalDisplay=0;
 
-
 var PizzaOrder= {
   size:'',
   crust: '',
