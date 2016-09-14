@@ -1,0 +1,7 @@
+Project Name: Pizza Stream
+
+Description:  Pizza Stream is a website designed for a Pizza eatery.  A user can order a pizza on-line by selecting size, crust, sauce, toppings, and other options.  The customer will be prompted to enter their delivery information only if delivery was selected. The cost of the pizza will be calculated and displayed when the get price button is selected.
+ 
+Technologies: HTML5, CSS, JavaScript, jQuery
+
+Tools: Form Validation, CSS Bootstrap
