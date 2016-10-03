@@ -7,77 +7,88 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <link href="main.css" type="text/css" rel="stylesheet"/>
   </head>
+
+
   <body>
-    <header class="row rowOne">
-      <div class ="col-lg-12">
-        <h1>Pizza Stream</h1>
-      </div>
-    </header>
     <nav class="row rowTwo">
-      <div class ="col-lg-12">
-        <ul class= "col-lg-12 col-lg-push-9 nav nav-pills col-xs-6">
+      <div class ="col-md-12">
+        <ul class= "col-md-12 col-md-push-9 nav nav-pills col-xs-6">
           <li role="presentation" class="active"><a href="#">Place an order</a></li>
           <li role="presentation"><a href="#aboutUs">About Us</a></li>
           <li role="presentation"><a href="#contactUs">Contact Us</a></li>
         </ul>
       </div>
     </nav>
-    <form class="container">
-      <main class="row rowThreeOne">
-        <article class="col-lg-4 col-xs-4 component">
-          <h4>Size (choose at least one)</h4>
-          <div class="checkbox">
-            <label>
-            <input type="checkbox" name="size" class="size" value="small">Small $5.00</label>
-          </div>
-          <div class="checkbox">
-            <label>
-            <input type="checkbox" name="size" class="size" value="medium">Medium $10.00</label>
-          </div>
-          <div class="checkbox">
-            <label>
-            <input type="checkbox" name="size" class="size" value="large">Large $15.00</label>
-          </div>
-        </article>
-        <article class="col-lg-4 col-xs-4 component">
-          <h4>Crust (choose at least one)</h4>
-          <div class="checkbox">
-            <label>
+    <header class="row rowOne">
+      <div class ="col-md-12">
+        <h1>La Bussola Pizzeria</h1>
+      </div>
+    </header>
+
+
+    <form class="container col-md-12">
+      <div class ="col-md-12">
+        <main class="row rowThreeOne">
+          <article class="col-md-4 col-xs-4 component">
+            <h4>Size (choose at least one)</h4>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="size" class="size" value="small">Small $5.00</label>
+            </div>
+            <div class="checkbox">
+              <label>
+              <input type="checkbox" name="size" class="size" value="medium">Medium $10.00</label>
+            </div>
+            <div class="checkbox">
+              <label>
+              <input type="checkbox" name="size" class="size" value="large">Large $15.00</label>
+            </div>
+          </article>
+          <article class="col-md-4 col-xs-4 component">
+            <h4>Crust (choose at least one)</h4>
+            <div class="checkbox">
+              <label>
               <input type="checkbox" name="crust" id="crust" value="White">White</label>
-          </div>
-          <div class="checkbox">
-            <label>
-            <input type="checkbox" name="crust" id="crust" value="
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="crust" id="crust" value="
               Wheat">Wheat</label>
-          </div>
-          <div class="checkbox">
-            <label>
-            <input type="checkbox" name="crust" id="crust" value="Gluten Free">Gluten Free</label>
-          </div>
-        </article>
-        <article class="col-lg-4 col-xs-4 component">
-          <h4>Sauce (choose at least one)</h4>
-          <div class="checkbox">
-            <label>
-            <input type="checkbox" name="sauce" id="sauce" value="Robust Tomato">Robust Tomato</label>
-          </div>
-          <div class="checkbox">
-            <label>
-            <input type="checkbox" name="sauce" id="sauce" value="Spicy BBQ">Spicy BBQ</label>
-          </div>
-          <div class="checkbox">
-            <label>
-            <input type="checkbox" name="sauce" id="sauce" value="Creamy Cream">Creamy Cream (+$1.50)</label>
-          </div>
-        </article>
-      </main>
-      <main class="row rowThree">
-        <article class="col-lg-12 col-xs-12 component">
-          <h4>Toppings ($0.75 each)</h4>
-        </article>
-      </main>
-      <main class="row rowFour">
-        <article class="col-lg-3 col-xs-6">
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="crust" id="crust" value="Gluten Free">Gluten Free</label>
+            </div>
+          </article>
+          <article class="col-md-4 col-xs-4 component">
+            <h4>Sauce (choose at least one)</h4>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="sauce" id="sauce" value="Robust Tomato">Robust Tomato</label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="sauce" id="sauce" value="Spicy BBQ">Spicy BBQ</label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="sauce" id="sauce" value="Creamy Cream">Creamy Cream (+$1.50)</label>
+            </div>
+          </article>
+        </main>
+      </div>
+
+      <div class ="col-lg-12">
+        <main class="row rowThree">
+          <section class="col-md-12 col-xs-12 component">
+            <h4>Toppings ($0.75 each)</h4>
+          </section>
+        </main>
+      </div>
+
+      <div class ="col-lg-12">
+        <main class="row rowFour">
+        <article class="col-md-3 col-xs-6">
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Sausage">Sausage</label>
@@ -95,7 +106,7 @@
             <input type="checkbox" name="toppings" id="toppings" value="Salami">Salami</label>
           </div>
         </article>
-        <article class="col-lg-3 col-xs-6">
+        <article class="col-md-3 col-xs-6">
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Ham">Ham</label>
@@ -113,7 +124,7 @@
             <input type="checkbox" name="toppings" id="toppings" value="Soy Cheese">Soy Cheese</label>
           </div>
         </article>
-        <article class="col-lg-3 col-xs-6">
+        <article class="col-md-3 col-xs-6">
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Banana Peppers">Banana Peppers</label>
@@ -127,7 +138,7 @@
             <input type="checkbox" name="toppings" id="toppings" value="Onion">Onion</label>
           </div>
         </article>
-        <article class="col-lg-3 col-xs-6">
+        <article class="col-md-3 col-xs-6">
           <div class="checkbox">
             <label>
             <input type="checkbox" name="toppings" id="toppings" value="Olives">Olives</label>
@@ -140,10 +151,13 @@
               <label>
               <input type="checkbox" name="toppings" id="toppings" value="Mushrooms">Mushrooms</label>
             </div>
-        </article>
-      </main>
+          </article>
+        </main>
+      </div>
+
+      <div class ="col-md-12">
       <main class="row rowFive">
-        <article class="col-lg-3 col-xs-6 component">
+        <article class="col-md-3 col-xs-6 component">
           <h4>Other options</h4>
           <div class="checkbox">
             <label>
@@ -154,24 +168,27 @@
             <input type="checkbox" name="otherOptions" id="other" value="Bread Sticks">Add bread sticks to order. (+$5.00 extra)</label>
           </div>
         </article>
-        <article class="col-lg-2 col-xs-6 component">
+        <article class="col-md-2 col-xs-6 component">
           <h4>Pick up or delivery</h4>
           <div class="checkbox">
             <label>
             <input type="checkbox" name="delivery" id="delivery" value=true onchange="toggleAble(this)">Delivery ($5.00 Delivery Fee)</label>
           </div>
         </article>
-        <article class="col-lg-7 col-xs-12 component">
+        <article class="col-md-7 col-xs-12 component">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </article>
       </main>
+      </div>
+
+      <div class ="col-md-12">
       <main class="row rowSix">
-        <article class="col-lg-6 col-xs-12 component">
+        <article class="col-md-6 col-xs-12 component">
           <h4>Customer Information for Delivery Only</h4>
           <fieldset id="fieldset" disabled>
             <div class="form-group">
               <label for="name">Full Name</label>
-              <input type="Name" class="form-control" id="name" required="required" placeholder="Jane Doe">
+              <input type="text" class="form-control name" id="name" required="required" placeholder="Jane Doe" type="text">
             </div>
             <div class="form-group">
               <label for="address">Address</label>
@@ -189,9 +206,9 @@
               <textarea class="form-control" id="driverNote" rows="3" placeholder="Type here..."></textarea>
           </fieldset>
         </article>
-        <article class="col-lg-6 col-xs-12 component getTotalBox">
+        <article class="col-md-6 col-xs-12 component getTotalBox">
           <h4>Get a Total</h4>
-          <button type="submit" class="btn btn-default">Get Price</button>
+          <button type="submit" class="btn btn-default submit">Get Price</button>
           <h4 class="cost subtotal">Pizza Subtotal:</h4>
           <h4 class="cost tax">Tax (8%):</h4>
           <h4 class="cost delivery">Delivery Fee:</h4>
@@ -200,25 +217,33 @@
           <button type="button" class="btn btn-default btn-lg btn-block placeOrder">Place my order</button>
         </article>
       </main>
+      </div>
     </form>
+
+    <div class ="col-md-12">
     <main class="row rowSeven">
-      <article class="col-lg-12 col-xs-12 component" id="aboutUs">
+      <article class="col-md-12 col-xs-12 component" id="aboutUs">
         <h4>About Us</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </article>
     </main>
+    </div>
+
+    <div class ="col-lg-12">
     <footer class="row rowEight">
-      <article class="col-lg-6 component col-xs-12" id="contactUs">
+      <article class="col-md-6 component col-xs-12" id="contactUs">
         <h4>Pizza Stream</h4><p>123 Pizza Way Denver, CO 80201</p>
         <p>telephone: 720-987-6543</p>
         <p>email: pizzastream@pizza.com</p>
       </article>
-      <article class="col-lg-6 col-lg-push-3 socialMedia col-xs-12">
-        <i class="fa fa-facebook-official fa-3x text-default" aria-hidden="true"></i>
-        <i class="fa fa-twitter fa-3x text-default" aria-hidden="true"></i>
-        <i class="fa fa-linkedin fa-3x text-default" aria-hidden="true"></i>
+      <article class="col-md-6 col-lg-push-4 socialMedia col-xs-12">
+        <i class="fa fa-facebook-official fa-4x text-default" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-4x text-default" aria-hidden="true"></i>
+        <i class="fa fa-linkedin fa-4x text-default" aria-hidden="true"></i>
       </article>
     </footer>
+    </div>
+
     <script  src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
     <script type="text/javascript" src="globalvariables.js"></script>
     <script type="text/javascript" src="main.js"></script>

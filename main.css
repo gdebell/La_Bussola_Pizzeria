@@ -1,24 +1,24 @@
 body {
-  background-color: rgba(140, 137, 121, 1);
-  color: rgba(242, 242, 242, 1);
+  color: rgba(64, 64, 64, 1);
   overflow-x: hidden;
 }
 
-header .col-lg-12 {
+header .col-md-12 {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 400px;
-  background-image: url("./images/pizzaFour.jpg");
+  background-image: url("./images/pizza.jpeg");
   background-size: cover;
   background-size: no-repeat;
   background-repeat: no-repeat;
   background-position: center center;
+  align-self: stretch;
 }
 
 h1 {
   color: rgba(246, 10, 32, 1);
-  padding: 10px;
+  padding: 20px;
   background: rgba(0, 0, 0, 0.5);
   font-size: 50px;
 }
@@ -30,13 +30,25 @@ h4 {
 
 .container {
   display: inline-block;
-    margin-left: 20px;
+  margin-right: -50px;
 }
 
-.rowOne, .rowTwo, .rowThree, .rowThreeOne, .rowFour, .rowFive, .rowSix, .rowSeven, .rowEight    {
+.rowOne, .rowTwo, .rowThree, .rowThreeOne, .rowFour, .rowFive, .rowSix, .rowSeven, .rowEight  {
   margin-left: 10px;
   margin-bottom: 20px;
 }
+
+.rowThree {
+  margin-left: 20px;
+  margin-bottom: -5px;
+  align-items: center;
+}
+
+.rowSeven, .rowEight  {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 
 .getTotalBox {
   border: 1px rgba(64, 64, 64, 1) solid;
@@ -53,6 +65,11 @@ h4 {
   margin-bottom: 10px;
 }
 
+.submit {
+  width: 580px;
+}
+
+
 .btn-success {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -60,4 +77,39 @@ h4 {
 
 .socialMedia {
   margin-top: 80px;
+}
+
+.nav-pills li.active>a, .nav-pills li>a:hover {
+  border-color: color: rgba(64, 64, 64, 1);
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+  color: rgba(64, 64, 64, 1);
+  background-color: rgb(226, 226, 222)
+}
+.nav-pills li>a {
+  border: 1px solid transparent;
+}
+.nav-pills>li>a {
+    border-radius: 4px;
+}
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.nav-pills a {
+  color: rgba(64, 64, 64, 1);
+}
+
+a {
+  color: rgba(64, 64, 64, 1);
+  text-decoration: none;
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #E5E5E5;
+    opacity: 1;
+    border: 1px solid #523c3f;
 }
